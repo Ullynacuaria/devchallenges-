@@ -36,10 +36,11 @@ body{
 #img{
     width: 539px;
     height: 447px;
+    transform: ;
 }
 
 .content-text{
-    width: 44%;
+    width: 30%;
 }
 
 #bad-news-text{
