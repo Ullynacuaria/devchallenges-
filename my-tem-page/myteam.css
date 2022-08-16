@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.title h1{
+    font-family: 'PT Serif';
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Poppins';
+    padding: 5rem;
+    width: 100%;
+}
+
+.about{
+    width:30%;
+    padding: 1rem;
+}
+.about h2{
+    text-transform: uppercase;
+
+}
+
+img{
+    max-width: 290px;
+}
+.team1{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 4rem;
+    flex-wrap: wrap;
+}
+.team2{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.member:nth-child(3n + 2){
+    margin-bottom: 0;
+    margin-top: 5rem;
+}
+.job-title{
+    font-family: 'PT Serif';
+    text-transform: uppercase;
+    writing-mode: vertical-lr;
+    float: right;
+    font-size: .75rem;
+    position: relative;
+    top: -28rem;
+    left: 1rem;
+}
+.name{
+    font-family: 'Poppins';
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing:0em;
+    text-align: left;
+    color: #000000;
+}
