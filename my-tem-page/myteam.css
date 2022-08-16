@@ -6,36 +6,67 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-.title h1{
-    font-family: 'PT Serif';
+.main{
+    background-color: #FAFAFA;
 }
 
 .title{
     display: flex;
+    flex-wrap:wrap;
     align-items: center;
-    justify-content: space-around;
+    justify-content:space-between;
     font-family: 'Poppins';
     padding: 5rem;
-    width: 100%;
+    width: 90%;
+}
+
+/*The creative*/
+.title h1{
+    font-family: 'PT Serif';
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 48px;
+    letter-spacing: -0.045rem;
+    padding-bottom: 2rem;
 }
 
 .about{
-    width:30%;
+    width: 35%;
     padding: 1rem;
 }
+
+/* Who we are */
 .about h2{
     text-transform: uppercase;
-
+    font-weight: 600;
+    line-height: 27px;
 }
 
+/* We are team of creatively diverse. driven. innovative individuals working in various locations from the world. */
+.about p{
+    padding-top: 1rem;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+/*My team Image*/
 img{
     max-width: 290px;
+} 
+
+/*Child selection 1st and midle*/
+.member:first-child img{
+    transform:matrix(-1, 0, 0, 1, 0, 0);
 }
+
+.member:nth-child(3n + 2){
+    margin-bottom: 0;
+    margin-top: 5rem;
+}
+/*The team*/
 .team1{
     display: flex;
     justify-content: space-evenly;
-    padding-bottom: 4rem;
     flex-wrap: wrap;
 }
 .team2{
@@ -43,26 +74,25 @@ img{
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
-.member:nth-child(3n + 2){
-    margin-bottom: 0;
-    margin-top: 5rem;
-}
+/*Team Title*/
 .job-title{
     font-family: 'PT Serif';
     text-transform: uppercase;
     writing-mode: vertical-lr;
     float: right;
     font-size: .75rem;
+    font-weight: 400;
+    line-height: 15.9px;
     position: relative;
     top: -28rem;
-    left: 1rem;
+    left: 1.5rem;
 }
+
+/*Team Names*/
 .name{
     font-family: 'Poppins';
     font-size: 18px;
     font-weight: 600;
     line-height: 27px;
     letter-spacing:0em;
-    text-align: left;
-    color: #000000;
 }
