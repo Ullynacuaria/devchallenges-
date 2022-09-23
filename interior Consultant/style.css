@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    letter-spacing: -0.035em;
+}
+
+body{
+    color: #FFFF;
+   background: #181719;
+   padding: 5rem;
+}
+.nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav h2{
+    font-family: 'Crimson Pro', monospace;
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 16px;
+    padding: 0.2rem;
+    text-transform: uppercase;
+    border: 1px solid #FFFF;
+}
+
+li{
+    display:inline;
+    justify-content: space-evenly;
+    padding: 4rem;
+}
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10rem;
+
+}
+
+.about{
+    width: 50%;
+    padding: 2.5rem;
+    padding-bottom: 10rem ;
+}
+.about h1{
+    font-family: 'Lora', monospace;
+    font-weight: 500;
+    font-size: 47px;
+    line-height: 61px;
+}
+.about p{
+    font-family: 'Montserrat', monospace;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 29px;
+    padding-top: 2.5rem;
+
+}
+
+.content-img{
+    background: url(./pic/photo1.png);
+    height: 100%;
+    width: 100%;
+    padding-right: 10rem;
+    
+    
+    
+}
+.content-img #profil{
+    width: 5rem;
+    
+}
+.profil-img{
+    width: 410px;
+    height: 189px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 025);
+    offset: 0px 4px;
+;
+
+}
